@@ -22,6 +22,7 @@ const Product = () => {
     const { register, handleSubmit, setValue, getValues, clearErrors, formState: { errors } } = useForm({
         //defaultValues: state,
     });
+    
     useEffect(() => {
         axios.get("http://localhost:8082/api/Document/GetMasterData").then(response => {
             setmasterCategorydata(response.data.Categories);
