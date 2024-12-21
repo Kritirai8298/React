@@ -1,0 +1,6 @@
+.p-toast {
+    top: 20px !important;
+    /* Adjust this for vertical positioning */
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
